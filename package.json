@@ -7,24 +7,32 @@
     "test": "test"
   },
   "dependencies": {
-    "js-base64": "~2.1.5",
-    "async": "~0.9.0",
-    "MD5": "~1.2.1",
-    "sugar": "~1.4.1",
-    "spidex": "~1.0.7",
-    "algorithmjs": "~0.0.2",
-    "moment": "~2.8.0"
+    "MD5": "^1.2.1",
+    "algorithmjs": "^0.0.2",
+    "js-base64": "^2.1.5",
+    "async": "^0.9.0",
+    "moment": "^2.8.0",
+    "spidex": "^1.0.7",
+    "sugar": "^1.4.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "node test/upyun.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XadillaX/ez-upyun.git"
+  },
   "keywords": [
     "upyun",
-    "cdn",
     "cloud",
-    "sdk"
+    "cdn",
+    "api"
   ],
   "author": "XadillaX",
-  "license": "GPLv2"
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/XadillaX/ez-upyun/issues"
+  },
+  "homepage": "https://github.com/XadillaX/ez-upyun"
 }
