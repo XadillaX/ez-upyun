@@ -11,7 +11,9 @@
     "async": "~0.9.0",
     "MD5": "~1.2.1",
     "sugar": "~1.4.1",
-    "spidex": "~1.0.7"
+    "spidex": "~1.0.7",
+    "algorithmjs": "~0.0.2",
+    "moment": "~2.8.0"
   },
   "devDependencies": {},
   "scripts": {
