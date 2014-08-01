@@ -3,7 +3,7 @@
  */
 var Upyun = require("../lib/upyun");
 
-var upyun = new Upyun("feime", "caozuoyuan", "caozuoyuan");
+var upyun = new Upyun("ahaha", "ahaha", "ahaha123");
 
 /**
  * test auth
@@ -19,6 +19,13 @@ upyun.testAuth(function(err, respHeader) {
     console.log();
 });
 
-upyun.upload("test/test.jpg", "test3.jpg", function(err, result) {
+upyun.upload("test/test.jpg", "test/test.jpg", { md5: true }, function(err, result) {
+    if(err) {
+        return console.log(err.message);
+    }
 
-})
+    console.log("==== test upload ====");
+    console.log(result);
+    console.log("=====================");
+    console.log();
+});
