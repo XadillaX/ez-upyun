@@ -1,6 +1,6 @@
 {
   "name": "ez-upyun",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Yet another upyun SDK for node.js which are eazy to use.",
   "main": "index.js",
   "directories": {
