@@ -39,6 +39,7 @@ var upyun = new Upyun("bucket", "user", "password");
 
 Methods of `Upyun` class are shown below:
 
++ setApiDomain(domain)
 + testAuth([callback])
 + upload(filename|buffer, uploadFilename, [options], [callback])
 + download(filepath, [callback])
@@ -48,6 +49,17 @@ Methods of `Upyun` class are shown below:
 + rm(filepath, [callback])
 + fetchUsage([callback])
 + forceRemove(path, [callback]) *
+
+#### setApiDomain
+
+You can also set the API domain to:
+
++ v0.api.upyun.com //自动判断最优线路
++ v1.api.upyun.com //电信线路
++ v2.api.upyun.com //联通（网通）线路
++ v3.api.upyun.com //移动（铁通）线路
+
+Or others your customize domain. The default API domain is v0.api.upyun.com.
 
 #### testAuth
 
