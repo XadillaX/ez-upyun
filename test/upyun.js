@@ -22,7 +22,7 @@ upyun.testAuth(function(err, respHeader) {
 /**
  * test upload
  */
-upyun.upload("test/test.jpg", "test/testx.jpg", { md5: true }, function(err, result) {
+upyun.upload("test/test.jpg", "test/test5.jpg", { md5: true }, function(err, result) {
     if(err) {
         return console.log(err.message);
     }
@@ -44,7 +44,7 @@ upyun.download("test/test5.jpg", function(err, data) {
     console.log("=== test download ===");
     console.log(data);
     console.log("=====================");
-    console.log()
+    console.log();
 });
 
 /**
@@ -121,3 +121,4 @@ upyun.forceRemove("test/", function(err, delCount) {
 
     console.log(delCount);
 });
+
