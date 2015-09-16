@@ -1,6 +1,6 @@
 {
   "name": "ez-upyun",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Yet another upyun SDK for node.js which are eazy to use.",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "MD5": "^1.3.0",
-    "algorithmjs": "^0.0.3",
+    "algorithmjs": "^0.0.4",
     "async": "^1.4.2",
     "js-base64": "^2.1.9",
     "moment": "^2.10.6",
