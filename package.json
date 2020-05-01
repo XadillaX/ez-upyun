@@ -13,11 +13,14 @@
     "js-base64": "^2.1.9",
     "moment": "^2.10.6",
     "spidex": "^2.0.5",
-    "sugar": "^1.4.1"
+    "sugar": "^1.4.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test/upyun.js"
+    "test": "node test/upyun.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/XadillaX/ez-upyun/issues"
   },
-  "homepage": "https://github.com/XadillaX/ez-upyun"
+  "homepage": "https://github.com/XadillaX/ez-upyun",
+  "snyk": true
 }
